@@ -1,2 +1,5 @@
 ---
 # vars file for ansible-logstash
+logstash_env_file:
+  Debian: /etc/default/logstash
+  RedHat: /etc/sysconfig/logstash
